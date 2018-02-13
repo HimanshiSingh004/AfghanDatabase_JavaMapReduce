@@ -2,7 +2,7 @@ package org;
 import java.io.IOException;
 import org.apache.hadoop.io.*;
 import org.apache.hadoop.mapreduce.Reducer;
-
+//afghan database reducer class
 public class Afreducer extends Reducer <Text,IntWritable,Text,IntWritable>{
 private IntWritable outvalue=new IntWritable();
 
